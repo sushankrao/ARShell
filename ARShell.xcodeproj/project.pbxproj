@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		828F7B221AEDAAFC009D4BAC /* ARShell.m in Sources */ = {isa = PBXBuildFile; fileRef = 828F7B211AEDAAFC009D4BAC /* ARShell.m */; };
+		82A1AC491AEDE161000752D3 /* Markov.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A1AC481AEDE161000752D3 /* Markov.m */; };
+		82A1AC4C1AEDE1E9000752D3 /* ARActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A1AC4B1AEDE1E9000752D3 /* ARActivity.m */; };
 		8AFFD7DA1ACC76A000F5511F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD7D91ACC76A000F5511F /* main.m */; };
 		8AFFD7DD1ACC76A000F5511F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD7DC1ACC76A000F5511F /* AppDelegate.m */; };
 		8AFFD7E01ACC76A000F5511F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD7DF1ACC76A000F5511F /* ViewController.m */; };
 		8AFFD7E31ACC76A000F5511F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFFD7E11ACC76A000F5511F /* Main.storyboard */; };
 		8AFFD7E51ACC76A000F5511F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFFD7E41ACC76A000F5511F /* Images.xcassets */; };
 		8AFFD7E81ACC76A000F5511F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFFD7E61ACC76A000F5511F /* LaunchScreen.xib */; };
-		8AFFD7F41ACC76A000F5511F /* ARShellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD7F31ACC76A000F5511F /* ARShellTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8AFFD7EE1ACC76A000F5511F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AFFD7CC1ACC76A000F5511F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AFFD7D31ACC76A000F5511F;
-			remoteInfo = ARShell;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		828F7B201AEDAAFC009D4BAC /* ARShell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARShell.h; sourceTree = "<group>"; };
+		828F7B211AEDAAFC009D4BAC /* ARShell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARShell.m; sourceTree = "<group>"; };
+		82A1AC431AEDBBA7000752D3 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		82A1AC471AEDE161000752D3 /* Markov.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Markov.h; sourceTree = "<group>"; };
+		82A1AC481AEDE161000752D3 /* Markov.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Markov.m; sourceTree = "<group>"; };
+		82A1AC4A1AEDE1E9000752D3 /* ARActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARActivity.h; sourceTree = "<group>"; };
+		82A1AC4B1AEDE1E9000752D3 /* ARActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARActivity.m; sourceTree = "<group>"; };
+		82A1AC4D1AEE15A8000752D3 /* ARShellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARShellProtocol.h; sourceTree = "<group>"; };
 		8AFFD7D41ACC76A000F5511F /* ARShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFFD7D81ACC76A000F5511F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AFFD7D91ACC76A000F5511F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,7 +37,6 @@
 		8AFFD7E21ACC76A000F5511F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AFFD7E41ACC76A000F5511F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AFFD7E71ACC76A000F5511F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8AFFD7ED1ACC76A000F5511F /* ARShellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARShellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFFD7F21ACC76A000F5511F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AFFD7F31ACC76A000F5511F /* ARShellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARShellTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,16 +49,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AFFD7EA1ACC76A000F5511F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A1AC4E1AEE2991000752D3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				828F7B201AEDAAFC009D4BAC /* ARShell.h */,
+				828F7B211AEDAAFC009D4BAC /* ARShell.m */,
+				82A1AC431AEDBBA7000752D3 /* Constants.h */,
+				82A1AC471AEDE161000752D3 /* Markov.h */,
+				82A1AC481AEDE161000752D3 /* Markov.m */,
+				82A1AC4A1AEDE1E9000752D3 /* ARActivity.h */,
+				82A1AC4B1AEDE1E9000752D3 /* ARActivity.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		8AFFD7CB1ACC76A000F5511F = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				8AFFD7D41ACC76A000F5511F /* ARShell.app */,
-				8AFFD7ED1ACC76A000F5511F /* ARShellTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 				8AFFD7E41ACC76A000F5511F /* Images.xcassets */,
 				8AFFD7E61ACC76A000F5511F /* LaunchScreen.xib */,
 				8AFFD7D71ACC76A000F5511F /* Supporting Files */,
+				82A1AC4E1AEE2991000752D3 /* Source */,
 			);
 			path = ARShell;
 			sourceTree = "<group>";
@@ -98,6 +104,7 @@
 			children = (
 				8AFFD7D81ACC76A000F5511F /* Info.plist */,
 				8AFFD7D91ACC76A000F5511F /* main.m */,
+				82A1AC4D1AEE15A8000752D3 /* ARShellProtocol.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +146,6 @@
 			productReference = 8AFFD7D41ACC76A000F5511F /* ARShell.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8AFFD7EC1ACC76A000F5511F /* ARShellTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AFFD7FA1ACC76A000F5511F /* Build configuration list for PBXNativeTarget "ARShellTests" */;
-			buildPhases = (
-				8AFFD7E91ACC76A000F5511F /* Sources */,
-				8AFFD7EA1ACC76A000F5511F /* Frameworks */,
-				8AFFD7EB1ACC76A000F5511F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AFFD7EF1ACC76A000F5511F /* PBXTargetDependency */,
-			);
-			name = ARShellTests;
-			productName = ARShellTests;
-			productReference = 8AFFD7ED1ACC76A000F5511F /* ARShellTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +157,7 @@
 				TargetAttributes = {
 					8AFFD7D31ACC76A000F5511F = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					8AFFD7EC1ACC76A000F5511F = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 8AFFD7D31ACC76A000F5511F;
+						DevelopmentTeam = R83R6TRG82;
 					};
 				};
 			};
@@ -189,7 +175,6 @@
 			projectRoot = "";
 			targets = (
 				8AFFD7D31ACC76A000F5511F /* ARShell */,
-				8AFFD7EC1ACC76A000F5511F /* ARShellTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +190,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AFFD7EB1ACC76A000F5511F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -220,28 +198,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFFD7E01ACC76A000F5511F /* ViewController.m in Sources */,
+				82A1AC4C1AEDE1E9000752D3 /* ARActivity.m in Sources */,
+				82A1AC491AEDE161000752D3 /* Markov.m in Sources */,
 				8AFFD7DD1ACC76A000F5511F /* AppDelegate.m in Sources */,
 				8AFFD7DA1ACC76A000F5511F /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AFFD7E91ACC76A000F5511F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AFFD7F41ACC76A000F5511F /* ARShellTests.m in Sources */,
+				828F7B221AEDAAFC009D4BAC /* ARShell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8AFFD7EF1ACC76A000F5511F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AFFD7D31ACC76A000F5511F /* ARShell */;
-			targetProxy = 8AFFD7EE1ACC76A000F5511F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8AFFD7E11ACC76A000F5511F /* Main.storyboard */ = {
@@ -363,42 +328,6 @@
 			};
 			name = Release;
 		};
-		8AFFD7FB1ACC76A000F5511F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ARShellTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARShell.app/ARShell";
-			};
-			name = Debug;
-		};
-		8AFFD7FC1ACC76A000F5511F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ARShellTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARShell.app/ARShell";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,15 +345,6 @@
 			buildConfigurations = (
 				8AFFD7F81ACC76A000F5511F /* Debug */,
 				8AFFD7F91ACC76A000F5511F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AFFD7FA1ACC76A000F5511F /* Build configuration list for PBXNativeTarget "ARShellTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AFFD7FB1ACC76A000F5511F /* Debug */,
-				8AFFD7FC1ACC76A000F5511F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
